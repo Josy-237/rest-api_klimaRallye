@@ -1,0 +1,1 @@
+INSERT INTO quizbilder (url, frage_id) VALUES ('https://media.istockphoto.com/id/1454818341/de/vektor/m%C3%BCll-sortieren-konzept.jpg?s=612x612&w=0&k=20&c=Al4t3XRRosIyXKV8m8vL-4ALuGkAROoqLE01OMWKpjY=', 1);

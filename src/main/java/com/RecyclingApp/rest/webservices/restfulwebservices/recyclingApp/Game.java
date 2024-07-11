@@ -3,8 +3,10 @@ package com.RecyclingApp.rest.webservices.restfulwebservices.recyclingApp;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
+import jakarta.persistence.Table;
 
 @Entity
+@Table(name = "games")
 public class Game {
 
 	public Game() {
