@@ -20,7 +20,7 @@ public class RestfulWebServicesApplication {
 			public void addCorsMappings(CorsRegistry registry) {
 				registry.addMapping("/**")
 				.allowedMethods("*")
-				.allowedOriginPatterns("http://localhost:5173");
+				.allowedOriginPatterns("http://localhost:3000");
 			}
 		};
 	}

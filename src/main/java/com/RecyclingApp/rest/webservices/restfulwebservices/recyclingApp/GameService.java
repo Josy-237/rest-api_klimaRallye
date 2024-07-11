@@ -15,14 +15,14 @@ public class GameService {
 	private static int gamesCount = 0;
 	private static int gamePoints = 2;
 
-	static {
-		games.add(new Game(++gamesCount, "Admin", "Müll Sortieren Spiel ghaga",
-				false,gamePoints,false ));
-		games.add(new Game(++gamesCount, "Admin", "Multiple Choice Fragen Spiel",
-				false, gamePoints, false));
-		games.add(new Game(++gamesCount, "Admin", "Komponenten trennen Spiel",
-				false, gamePoints, false));
-	}
+	// static {
+	// 	games.add(new Game(++gamesCount, "Admin", "Müll Sortieren Spiel ghaga",
+	// 			false,gamePoints,false ));
+	// 	games.add(new Game(++gamesCount, "Admin", "Multiple Choice Fragen Spiel",
+	// 			false, gamePoints, false));
+	// 	games.add(new Game(++gamesCount, "Admin", "Komponenten trennen Spiel",
+	// 			false, gamePoints, false));
+	// }
 
 	public List<Game> findByUsername(String username) {
 		Predicate<? super Game> predicate = game -> game.getUsername().equalsIgnoreCase(username);
